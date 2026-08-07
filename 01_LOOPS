@@ -128,3 +128,39 @@ int main()
 
 ==============================================================
 
+problem 34 - printing HCF's of any no.
+solution - 
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n;
+	cout << "entre value of n";
+	cin >> n;
+	for (int i=1;i<=n;i++)
+	{
+		if(n%i==0)	
+			cout << i << " ";
+	}
+}
+
+==============================================================
+
+problem 35 - printing only HCF no. of any no.
+solution - 
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n;
+	int f;
+	cout << "entre value of n";
+	cin >> n;
+	f = 1;
+	for (int i=1;i<n;i++)
+	{
+		if (n % i == 0)
+			f = i;
+	}
+	cout << f << " ";
+}
