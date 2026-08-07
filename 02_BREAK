@@ -1,1 +1,80 @@
+problem 36 - finding HCF using break 
+soution -
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n;
+	cout << "entre value of n";
+	cin >> n;
+	for (int i = n / 2;i >= 1;i--)
+	{
+		if (n % i == 0)
+		{
+
+			cout << i << " ";
+			break;
+
+		}
+	}
+}
+
+====================================================
+
+problem 37 - finding any no. composite or not
+solution -
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n;
+	cout << "entre value of n";
+	cin >> n;
+	for (int i = 2 ;i <n;i++)
+	{
+		if (n % i == 0)
+		{
+			cout << " this number is composite !!" << endl;
+			break;
+		}
+		else
+		{
+			cout << " this number is not composite !!" << endl;
+			break;
+		}
+		
+	
+	}
+}
+
+====================================================
+
+problem 38 - finding prime number
+solution - 
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n;
+	cout << "entre value of n";
+	cin >> n;
+	
+	for (int i = 2 ;i <n;i++)
+	{
+		if (n % i != 0)
+		{
+			cout << " this number is Prime !!" << endl;
+			break;
+		}
+		else
+		{
+			cout << " this number is not Prime !!" << endl;
+			break;
+		}
+		
+	
+	}
+}
+
+====================================================
 
