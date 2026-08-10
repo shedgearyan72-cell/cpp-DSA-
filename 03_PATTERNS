@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	int n;
-	cout << " Entre the value of n : ";
+	cout << " Enter the value of n : ";
 	cin >> n;
 	int count = 0;
 	while (n != 0) {
@@ -24,7 +24,7 @@ using namespace std;
 int main()
 {
 	int m;
-	cout << " Entre number of rows  : ";
+	cout << " Enter number of rows  : ";
 	cin >> m;
 	for (int i = 1;i <= m;i++)
 	{
@@ -34,3 +34,70 @@ int main()
 
 =================================================
 
+problem 43 - printing rectangle using row and colns as input 
+solution - 
+#include<iostream>
+using namespace std;
+int main()
+{
+	int m;
+	int n;
+	cout << " Enter number of rows  : ";
+	cin >> m;
+	cout << " enter number of columns : ";
+	cin >> n;
+	for (int i = 1;i <= m;i++)
+	{
+		for (int i = 1;i <= n;i++)
+		{
+			cout << "*";
+		}
+		cout << endl;
+	}
+}
+
+=================================================
+
+problem 44 - printing square 
+solution -
+#include<iostream>
+using namespace std;
+int main()
+{
+	
+	int n;
+	cout << " enter number of columns : ";
+	cin >> n;
+	for (int i = 1;i <= n;i++)
+	{
+		for (int j = 1;j <= n;j++)
+		{
+			cout << "* ";
+		}
+		cout << endl;
+	}
+	
+	
+}
+
+=================================================
+
+problem 45 - printing number 
+solution - 
+#include<iostream>
+using namespace std;
+int main()
+{
+	
+	int n;
+	cout << " enter number : ";
+	cin >> n;
+	for (int i = 1;i <= n;i++)
+	{
+		for (int i = 1;i <= n;i++)
+		{
+			cout <<i;
+		}
+		cout << endl;
+	}	
+}
