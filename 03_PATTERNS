@@ -17,3 +17,20 @@ int main()
 
 =================================================
 
+problem 42 - printing rectangle by getting rows as input 
+solution -
+#include<iostream>
+using namespace std;
+int main()
+{
+	int m;
+	cout << " Entre number of rows  : ";
+	cin >> m;
+	for (int i = 1;i <= m;i++)
+	{
+		cout << "*****" << endl;
+	}
+}
+
+=================================================
+
