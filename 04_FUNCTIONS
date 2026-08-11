@@ -36,3 +36,28 @@ int main()
 }
 
 ==========================================
+
+problem 54 - calculating max btn two numbers
+solution -
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+	cout << max(4,8);
+}
+
+==========================================
+
+problem 55 - calculating min btn two numbers
+solution - 
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+	cout << min(4,8);
+}
+
+
+==========================================
