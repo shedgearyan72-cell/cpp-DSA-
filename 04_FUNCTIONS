@@ -61,3 +61,15 @@ int main()
 
 
 ==========================================
+
+problem 56 - calculating power of any number 
+solution - 
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+	cout << pow(2,16);
+}
+
+==========================================
