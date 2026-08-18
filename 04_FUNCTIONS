@@ -219,3 +219,23 @@ int main()
 }
 
 ==========================================
+
+problem 61 - swap two numbers 
+solution - 
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x;
+	int y;
+	x = 2;
+	y = 5;
+	cout << x << " " << y << endl;
+	int temp = x;
+	x = y;
+	y = temp;
+	cout << x << " " << y << endl;
+	return 0;
+}
+
+==========================================
