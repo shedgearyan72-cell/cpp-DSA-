@@ -73,3 +73,43 @@ int main()
 }
 
 ==========================================
+
+problem 57 - combination 
+solution - 
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    int n;
+    cout << "Enter value of n : ";
+    cin >> n;
+    int r;
+    cout << "Enter value of n : ";
+    cin >> r;
+    int a;
+    a = 1;
+    int b;
+    b = 1;
+    for (int i = 1;i <= n;i++)
+    {
+        a *= i;
+    }
+   
+    for (int i = 1;i <= r;i++)
+    {
+        b *= i;
+    }
+  
+    int c;
+    c = 1;
+
+    for (int i = 1;i <= n-r;i++)
+    {
+        c *= i;
+    }
+    cout << a/(b*c);
+    return 0;
+}
+
+==========================================
