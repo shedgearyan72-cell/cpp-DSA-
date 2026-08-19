@@ -28,7 +28,7 @@ int main()
 	cin >> m;
 	for (int i = 1;i <= m;i++)
 	{
-		cout << "*****" << endl;
+		cout << "****" << endl;
 	}
 }
 
