@@ -17,3 +17,41 @@ int main()
 }
 
 ===============================================
+
+problem 64 - find maximum in array 
+solution - 
+#include<iostream>
+using namespace std;
+int main()
+{
+	int arr[] = { 10,25,7,42,18,30 };
+	int n = sizeof(arr) / 4;
+	int mx=0;
+	for (int i = 0;i < n;i++)
+	{
+		mx = max(arr[i], mx);
+	}
+	cout << mx;
+	return 0;
+}
+
+=================================================
+
+problem 65 - find minimum in array 
+solution - 
+#include<iostream>
+using namespace std;
+int main()
+{
+	int arr[] = { 10,25,7,42,18,30 };
+	int n = sizeof(arr) / 4;
+	int mn=0;
+	for (int i = 0;i < n;i++)
+	{
+		mn = min(arr[i], mn);
+	}
+	cout << mn;
+	return 0;
+}
+
+=================================================
